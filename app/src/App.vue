@@ -1,9 +1,8 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-toolbar app class="deep-purple lighten-5">
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN!!!</span>
+        <span class="font-weight-light">WINE TASTING</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -11,23 +10,26 @@
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
       >
-        <span class="mr-2">Latest Release</span>
+        <!-- <span class="mr-2">Latest Release</span> -->
       </v-btn>
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <!-- <HelloWorld/> -->
+      <TastingNote/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+// import HelloWorld from './components/HelloWorld'
+import TastingNote from './components/TastingNote'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    TastingNote
   },
   data () {
     return {

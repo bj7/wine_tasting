@@ -16,5 +16,8 @@
         "vue"
     ],
     "rules": {
+        "object-curly-spacing": 1,
+        "no-trailing-spaces": "off",
+        "eol-last": "off"
     }
 }

@@ -3,7 +3,7 @@
         "browser": true,
         "es6": true
     },
-    "extends": ["standard", "plugin:vue/essential"],
+    "extends": ["standard", "plugin:vue/essential", "prettier" ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -13,11 +13,14 @@
         "sourceType": "module"
     },
     "plugins": [
-        "vue"
+        "vue",
+        "prettier"
+//        "plugin:prettier/recommended"
     ],
     "rules": {
         "object-curly-spacing": 1,
         "no-trailing-spaces": "off",
-        "eol-last": "off"
+        "eol-last": "off",
+        "prettier/prettier": "error"
     }
 }

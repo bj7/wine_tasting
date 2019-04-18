@@ -1,23 +1,23 @@
 <template>
-  <section class="section">
+  <div>
     <div class="columns">
       <div class="column is-one-third">
-        <Sidebar/>
+        <Sidebar />
       </div>
       <div class="column">
-        <TastingNote/>
+        <TastingNote />
       </div>
     </div>
-  </section>
+  </div>
 </template>
 <script>
-import TastingNote from './TastingNote/TastingNote'
-import Sidebar from './Sidebar'
+import TastingNote from "./TastingNote/TastingNote";
+import Sidebar from "./Sidebar";
 export default {
-  name: 'Body',
+  name: "Body",
   components: {
     TastingNote,
     Sidebar
   }
-}
+};
 </script>

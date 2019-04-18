@@ -98,7 +98,7 @@
           type="text"
           rows="3"
           placeholder="Text input"
-        />
+        ></textarea>
       </div>
     </div>
 
@@ -115,12 +115,18 @@
         <input class="input" type="text" placeholder="Text input" />
       </div>
     </div>
+
+    <OverallRatings></OverallRatings>
   </div>
 </template>
 
 <script>
+import OverallRatings from "./OverallRatings";
 export default {
   name: "Page",
-  data: () => ({})
+  data: () => ({}),
+  components: {
+    OverallRatings
+  }
 };
 </script>

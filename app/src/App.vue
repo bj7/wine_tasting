@@ -20,9 +20,7 @@ export default {
     Body
   },
   data() {
-    return {
-      collapsed: false
-    };
+    return {};
   }
 };
 </script>

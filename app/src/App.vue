@@ -1,7 +1,11 @@
 <template>
   <section>
-    <Header />
-    <Body />
+    <div class="container">
+      <Header />
+    </div>
+    <div class="container">
+      <Body />
+    </div>
   </section>
 </template>
 
